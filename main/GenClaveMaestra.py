@@ -17,6 +17,7 @@ def main():
 
     try:
         _, fragments = make_random_shares(minimum, shares, key_int)
+        fragments = [(id_frag, fragment % (1 << 128)) for id_frag, fragment in fragments]
         print("Fragmentos generados (binarios):", fragments)
     except ValueError as e:
         print(f"Error al generar los fragmentos: {e}")
@@ -30,7 +31,7 @@ def main():
     # Almacenar los fragmentos en la base de datos como enteros binarios
     for idx, (id_frag, fragment) in enumerate(fragments):
         # Convertir el fragmento a un número binario que se ajuste al tamaño de 16 bytes
-        fragment_bin = fragment.to_bytes((fragment.bit_length() + 7) // 8, byteorder="big")
+        fragment_bin = fragment.to_bytes(16, byteorder="big", signed=False)
         collection.insert_one({"id": id_frag, "fragment": Binary(fragment_bin)})
 
     print("Fragmentos enviados al nodo secundario en formato binario.")
