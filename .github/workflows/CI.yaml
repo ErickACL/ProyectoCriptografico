@@ -37,5 +37,6 @@ jobs:
           -Dsonar.projectKey=ErickACL_ProyectoCriptografico
           -Dsonar.organization=erickacl
           -Dsonar.python.version=3.9
+          -X
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
