@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-from shamir import recover_secret
+from main.shamir import recover_secret
 
 # Función para conectar con MongoDB y obtener fragmentos
 def obtener_fragmentos():
