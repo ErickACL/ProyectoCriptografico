@@ -1,0 +1,47 @@
+
+,
+combine_sharesmain.shamir.combine_shares¸
+3intG>"Se requieren al menos 3 fragmentos para recomponer la clave."str¾´"
+    Combina los fragmentos para recomponer la clave maestra.
+    
+    :param shares: Lista de fragmentos como tuplas (id, valor).
+    :return: La clave maestra recombinada.
+    "str
+0intsharesL L(sharesL L("¦-
++
+T T("
+lenbuiltins.len(*2int*
+(
+T T("
+	#binop <#	#binop <#*+
+)
+T T("
+#bool##bool# *2bool"
+T T( *T T("5!
+
+U U(X"
+
+ValueError(*2
+U U(X"ù2
+0
+X  X(.	""
+#unknown-value##unknown-value#=
+;
+X X(/
+shares"
+sortedbuiltins.sorted(*	2list/
+-
+[ [(-x_values"
+?python-unknown?*
+/
+-
+\ \(-y_values"
+?python-unknown?*
+a
+_
+_ _(Brecombined_key"<
+lagrange_interpolation"main.shamir.lagrange_interpolation*-
++
+b b("
+intbuiltins.int(*2int
+b b(*;/home/raxel/Escritorio/ProyectoCriptografico/main/shamir.py

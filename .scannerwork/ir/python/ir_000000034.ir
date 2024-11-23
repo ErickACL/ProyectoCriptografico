@@ -1,0 +1,22 @@
+
+,
+recover_secretmain.shamir.recover_secret:
+1int
+2int
+0intshares% %(shares% %("Á-
++
+3 3("
+#unaryop *##unaryop *#*
+
+3 3("
+zip(*<
+:
+3 3(x_s""
+#python-unpack##python-unpack#*<
+:
+3 3(y_s""
+#python-unpack##python-unpack#*h
+f
+6 6(0	secret"K
+lagrange_interpolation1main.shamir.recover_secret.lagrange_interpolation*
+7 7(	*;/home/raxel/Escritorio/ProyectoCriptografico/main/shamir.py

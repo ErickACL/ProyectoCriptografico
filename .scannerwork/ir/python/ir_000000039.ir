@@ -1,0 +1,24 @@
+
+7
+obtener_fragmentos!main.RecuClave.obtener_fragmentos^"distributed_keys"str"fragments"str) "mongodb://172.16.19.219:27017/"str"º(
+&
+ (:client"
+MongoClient*4
+2
+	 (#db"
+#array-read##array-read#*<
+:
+	 	( 
+collection"
+#array-read##array-read#*
+
+ ('"
+find *8<
+:
+ ((
+fragmentos"
+listbuiltins.list(*2list-
++
+ (t	shares"
+?python-unknown?*
+ (	*>/home/raxel/Escritorio/ProyectoCriptografico/main/RecuClave.py

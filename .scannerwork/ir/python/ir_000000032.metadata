@@ -1,0 +1,10 @@
+main.shamir._generate_coefficients
+false
+27d54b7e634a069f4f53da3056ba8c36
+builtins.__has_next
+builtins.iter
+builtins.next
+range.__init__
+==
+append
+randint
