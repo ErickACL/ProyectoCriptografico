@@ -16,6 +16,8 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -46,7 +48,7 @@ jobs:
           -Dsonar.organization=erickacl
           -Dsonar.token=1ca3c64193febc3645c07d5b4bf1b6f813c27d35
           -Dsonar.python.version=3.9
-          -Dsonar.sources=main
+          -Dsonar.sources=$(pwd)/main
           -Dsonar.tests=tests
           -Dsonar.python.coverage.reportPaths=main/coverage.xml
           -Dsonar.verbose=true
