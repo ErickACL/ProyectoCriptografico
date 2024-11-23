@@ -44,11 +44,11 @@ jobs:
         args: >
           -Dsonar.projectKey=ProyectoCriptografico
           -Dsonar.organization=erickacl
-          -sonar.token=1ca3c64193febc3645c07d5b4bf1b6f813c27d35
+          -Dsonar.token=1ca3c64193febc3645c07d5b4bf1b6f813c27d35
           -Dsonar.python.version=3.9
           -Dsonar.sources=main
           -Dsonar.tests=tests
-          -sonar.python.coverage.reportPaths=main/coverage.xml
+          -Dsonar.python.coverage.reportPaths=main/coverage.xml
           -Dsonar.verbose=true
           -X
       env:
