@@ -32,7 +32,7 @@ jobs:
         pip install pytest-cov
 
     - name: Run tests with coverage
-      run: pytest --cov=main --cov-report=xml:coverage.xml
+      run: coverage run --source=main -m pytest
     
     - name: Verify coverage.xml
       run: ls -la coverage.xml

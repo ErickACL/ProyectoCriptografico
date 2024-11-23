@@ -1,0 +1,5 @@
+[run]
+source = main
+
+[report]
+show_missing = True
