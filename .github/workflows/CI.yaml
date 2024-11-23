@@ -48,7 +48,7 @@ jobs:
           -Dsonar.organization=erickacl
           -Dsonar.token=1ca3c64193febc3645c07d5b4bf1b6f813c27d35
           -Dsonar.python.version=3.9
-          -Dsonar.sources=$(pwd)/main
+          -Dsonar.sources=/github/workspace/main
           -Dsonar.tests=tests
           -Dsonar.python.coverage.reportPaths=main/coverage.xml
           -Dsonar.verbose=true
