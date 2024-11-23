@@ -42,6 +42,9 @@ jobs:
           -Dsonar.projectKey=ProyectoCriptografico
           -Dsonar.organization=erickacl
           -Dsonar.python.version=3.9
+          -Dsonar.sources=main
+          -Dsonar.tests=tests
+          -Dsonar.python.coverage.reportPaths=coverage.xml
           -X
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
