@@ -28,9 +28,8 @@ jobs:
         pip install pytest
         pip install pytest pymongo
 
-    - name: Run Pytest
-      run: |
-        pytest
+    - name: Run tests with coverage
+        run: pytest --cov=main --cov-report=xml
 
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@v2
