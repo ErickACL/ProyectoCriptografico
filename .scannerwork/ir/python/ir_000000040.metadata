@@ -1,6 +1,6 @@
 main.RecuClave.reconstruir_clave
 false
-1f738d4b3bef1400fb8b6cde52f4d93a
+71078414aa3ff9b297c1aa5560a69d00
 main.shamir.recover_secret
 ==
 to_bytes

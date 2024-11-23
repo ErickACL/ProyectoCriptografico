@@ -1,13 +1,13 @@
 
 ,
 combine_sharesmain.shamir.combine_shares¸
+0int
 3intG>"Se requieren al menos 3 fragmentos para recomponer la clave."str¾´"
     Combina los fragmentos para recomponer la clave maestra.
     
     :param shares: Lista de fragmentos como tuplas (id, valor).
     :return: La clave maestra recombinada.
-    "str
-0intsharesL L(sharesL L("¦-
+    "strsharesL L(sharesL L("¦-
 +
 T T("
 lenbuiltins.len(*2int*

@@ -1,9 +1,9 @@
 
 ,
 recover_secretmain.shamir.recover_secret:
-1int
+0int
 2int
-0intshares% %(shares% %("Á-
+1intshares% %(shares% %("Á-
 +
 3 3("
 #unaryop *##unaryop *#*
