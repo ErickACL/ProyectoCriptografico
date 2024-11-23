@@ -27,6 +27,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest
         pip install pytest pymongo
+        pip install pytest-cov
 
     - name: Run tests with coverage
       run: pytest --cov=main --cov-report=xml
