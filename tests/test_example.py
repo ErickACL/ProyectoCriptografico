@@ -4,6 +4,7 @@ from unittest.mock import patch, MagicMock
 from main.GenClaveMaestra import main
 from main.shamir import make_random_shares, combine_shares
 
+#Valida el proceso del todo el codigo
 @patch('os.urandom')
 @patch('main.GenClaveMaestra.MongoClient')
 def test_main(mock_mongo_client, mock_urandom):
