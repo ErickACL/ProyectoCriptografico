@@ -30,7 +30,10 @@ jobs:
         pip install pytest-cov
 
     - name: Run tests with coverage
-      run: pytest --cov=main --cov-report=xml
+      run: pytest --cov=main --cov-report=xml:coverage.xml
+    
+    - name: Verify coverage.xml
+      run: ls -la coverage.xml
 
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@v2
