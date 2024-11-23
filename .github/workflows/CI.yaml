@@ -35,16 +35,20 @@ jobs:
     - name: Verify coverage.xml
       run: ls -la coverage.xml
 
+    - name: Mover archivo de cobertura
+      run: mv coverage.xml ./main/
+
     - name: SonarCloud Scan
       uses: sonarsource/sonarcloud-github-action@v2
       with:
         args: >
           -Dsonar.projectKey=ProyectoCriptografico
           -Dsonar.organization=erickacl
+          -sonar.token=1ca3c64193febc3645c07d5b4bf1b6f813c27d35
           -Dsonar.python.version=3.9
           -Dsonar.sources=main
           -Dsonar.tests=tests
-          -Dsonar.python.coverage.reportPaths=$(pwd)/coverage.xml
+          -sonar.python.coverage.reportPaths=main/coverage.xml
           -Dsonar.verbose=true
           -X
       env:
