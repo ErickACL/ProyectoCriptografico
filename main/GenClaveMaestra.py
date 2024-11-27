@@ -1,7 +1,7 @@
 import os
 from pymongo import MongoClient
 from bson import Binary
-from main.shamir import make_random_shares
+from shamir import make_random_shares
 
 def main():
     # Generar clave maestra
