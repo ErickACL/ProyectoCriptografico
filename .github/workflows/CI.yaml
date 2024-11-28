@@ -44,9 +44,9 @@ jobs:
       uses: sonarsource/sonarcloud-github-action@v2
       with:
         args: >
-          -Dsonar.projectKey=ProyectoCriptografico
+          -Dsonar.projectKey=ErickACL_ProyectoCriptografico
           -Dsonar.organization=erickacl
-          -Dsonar.token=1ca3c64193febc3645c07d5b4bf1b6f813c27d35
+          -Dsonar.token=46967ab36f46e7617a867f58eb6603875527598d
           -Dsonar.python.version=3.9
           -Dsonar.sources=/github/workspace/main
           -Dsonar.tests=tests
