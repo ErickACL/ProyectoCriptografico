@@ -4,5 +4,5 @@ serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.58142
 branch=master
 dashboardUrl=https://sonarcloud.io/dashboard?id=ErickACL_ProyectoCriptografico&branch=master
-ceTaskId=AZNwJxNsgexuJyeluwhC
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZNwJxNsgexuJyeluwhC
+ceTaskId=AZNwPQIIMUGleWcYvOPk
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZNwPQIIMUGleWcYvOPk

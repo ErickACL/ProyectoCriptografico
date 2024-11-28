@@ -1,6 +1,6 @@
 
 7
-obtener_fragmentos!main.RecuClave.obtener_fragmentos^"fragments"str) "mongodb://172.16.19.219:27017/"str"distributed_keys"str"º(
+obtener_fragmentos!main.RecuClave.obtener_fragmentos^) "mongodb://172.16.19.219:27017/"str"distributed_keys"str"fragments"str"º(
 &
  (:client"
 MongoClient*4
